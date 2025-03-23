@@ -1,0 +1,12 @@
+# se o valor da compra é maior do que 100 R$, vai ter 10% deconto, se não vai sei sem.
+
+valor = float(input('Informe o valor únitário ))
+qtd = int(input('Informe a quantidade ))
+
+total_comprada = valor * qtd
+
+if total_comprada >= 100:
+desc = total_comprada * 0.10
+total_desconto = total_comprada - desc
+print(f'O total da compra com desconto R$ {desconto_total})
+print(f'O total da compra sem desconto R$ {total_coprada}')
